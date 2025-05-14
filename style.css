@@ -78,6 +78,7 @@ body {
     justify-content: space-between;
     padding:  12px 0;
     cursor: pointer;
+    flex-grow: 1;
     flex-wrap: wrap;
 }
 
@@ -96,8 +97,7 @@ body {
     margin-bottom: 10px; /* Add some space below unit info */
 }
 
-.sub-container.expanded .price {
-    text-align: left; /* Align price to the left when expanded */
+.sub-container.expanded .price{
     margin-left: 40px; /* Maintain indentation */
     margin-bottom: 15px; /* Add space before variations */
 }
