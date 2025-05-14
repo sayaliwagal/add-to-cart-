@@ -1,0 +1,35 @@
+{
+    "quantities": {
+        "1" : {
+            "price": 10.00,
+            "discount": "10% Off",
+            "originalPrice": 24.00,
+            "deliveryinfo" : "Standard Price",
+            "variations" : {
+                "size" : ["S","M","L"],
+                "color" : ["black", "white", "gray"]
+            }
+        },
+        "2" : {
+            "price": 18.00,
+            "discount": "20% Off",
+            "originalPrice": 24.00,
+            "variations" : [
+        { "size": ["S", "M", "L"], "color": ["black", "blue", "green"] }, 
+        { "size": ["S", "M", "L"], "color": ["black", "blue", "green"] }  
+            ]
+    },
+
+     "3" : {
+            "price": 24.00,
+            "discount": "30% Off",
+            "originalPrice": 24.00,
+            "variations" : [
+        { "size": ["S", "M", "L"], "color": ["black", "blue", "green"] }, 
+        { "size": ["S", "M", "L"], "color": ["black", "blue", "green"] },  
+        { "size": ["S", "M", "L"], "color": ["black", "blue", "green"] }  
+            ]   
+
+        }
+    }
+}
